@@ -1,0 +1,20 @@
+{
+  "artifact": "project-page/media/theory-overview.mp4",
+  "renderer": "scripts/render_theory_film.py",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 30,
+  "duration_seconds": 34,
+  "source_media": [
+    "project-page/media/expanded-world-model/libero_spatial_state_001_*",
+    "project-page/media/expanded-world-model/libero_object_state_001_*",
+    "project-page/media/expanded-world-model/libero_goal_state_001_*"
+  ],
+  "semantics": "conceptual architecture animation grounded with recorded learned-policy inputs, predictions, realized simulator futures and retrospective residuals",
+  "comparative_frame_gain_claimed": false,
+  "open_claims_visible": [
+    "comparative closed-loop FRAME task gain"
+  ]
+}

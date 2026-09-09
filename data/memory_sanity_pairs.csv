@@ -1,0 +1,4 @@
+suite,ttl_inverse_same_input_hashes,ttl_inverse_same_executed_actions,ttl_inverse_common_steps_max_abs_action_diff,fresh_stale_first_action_difference_step,fresh_stale_common_prefix_disagreement,common_prefix_steps
+libero_spatial,True,True,0.0,17,0.7894736842105263,76
+libero_object,True,True,0.0,17,0.8832116788321168,137
+libero_goal,True,True,0.0,17,0.8832116788321168,137

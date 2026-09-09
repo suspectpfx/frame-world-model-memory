@@ -1,0 +1,73 @@
+{
+  "generated_on": "2026-09-08",
+  "page": "project-page/index.html",
+  "evidence_validation": {
+    "pass": true,
+    "registry_statements": 608,
+    "local_link_errors": 0,
+    "numeric_binding_errors": 0,
+    "legacy_discrepancy_retained": "The archived hidden-permutation values 1.073 and 1.121 use different aggregation estimands. Both are labeled on the final page."
+  },
+  "browser_qa": {
+    "engine": "Codex in-app browser",
+    "console_errors": 0,
+    "desktop_viewport_checked": [1440, 1000],
+    "tablet_viewport_checked": [768, 1024],
+    "mobile_viewport_checked": [390, 844],
+    "document_horizontal_overflow_px": {
+      "desktop": 0,
+      "tablet": 0,
+      "mobile": 0
+    },
+    "media_containment_failures": 0,
+    "grid_cell_intersections": 0,
+    "broken_images": 0,
+    "video_playback_errors": 0,
+    "pipeline_canvas": {
+      "desktop_css_px": [1186, 682],
+      "desktop_backing_px": [2372, 1364],
+      "narrow_css_px": [579, 333],
+      "narrow_backing_px": [1158, 666]
+    },
+    "katex_formula_count": 3,
+    "result_figure_count": 9,
+    "advisor_closure_card_count": 2,
+    "referenced_video_count": 122,
+    "additional_rendered_layout_checks": {
+      "firefox_desktop_visualization": "artifacts/qa/browser/firefox-visualization-section.png",
+      "firefox_mobile_visualization": "artifacts/qa/browser/firefox-visualization-mobile.png",
+      "firefox_desktop_memory_comparison": "artifacts/qa/browser/firefox-comparison.png",
+      "firefox_mobile_memory_comparison": "artifacts/qa/browser/firefox-comparison-mobile.png",
+      "finding": "Video posters, labels, captions, and task cards remain contained; narrow matrices scroll within their own container."
+    },
+    "result_figures_use_dark_variants": true,
+    "expanded_gallery": {
+      "rows": 15,
+      "videos": 90,
+      "visible_rows_per_group": 5,
+      "views_per_row": 6,
+      "group_navigation_checked": "Group 2 / 3 · scenes 6–10 of 15",
+      "synchronization_gate": "Each row waits for all six media elements to become playable before starting.",
+      "maximum_observed_within_row_drift_seconds": 0.021
+    },
+    "theory_film": {
+      "duration_seconds": 34,
+      "width": 1920,
+      "height": 1080,
+      "ready_state": 4,
+      "playback_error": null
+    }
+  },
+  "asset_audit": {
+    "total_assets": 292,
+    "mp4": 125,
+    "jpeg": 122,
+    "png": 15,
+    "svg": 30,
+    "failures": 0,
+    "report_json": "artifacts/media_validation.json",
+    "report_csv": "artifacts/media_validation.csv"
+  },
+  "responsive_formula_policy": "Long KaTeX expressions use contained horizontal scrolling on mobile; the document itself has zero horizontal overflow.",
+  "scientific_boundary": "The 480-episode fixed-task memory-control population is complete. Comparative calibrated FRAME task improvement, latency-aware physical dynamics, full-suite LIBERO, RoboTwin and calibrated learned imagination remain open and are labeled as such on the page."
+}

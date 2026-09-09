@@ -1,0 +1,44 @@
+{
+  "study": "exploratory paired sanity; one initial state per task",
+  "complete_episodes": 12,
+  "recovery_pass": true,
+  "intervention_changes_actions": true,
+  "pairs": [
+    {
+      "suite": "libero_spatial",
+      "ttl_inverse_same_input_hashes": true,
+      "ttl_inverse_same_executed_actions": true,
+      "ttl_inverse_common_steps_max_abs_action_diff": 0.0,
+      "fresh_stale_first_action_difference_step": 17,
+      "fresh_stale_common_prefix_disagreement": 0.7894736842105263,
+      "common_prefix_steps": 76
+    },
+    {
+      "suite": "libero_object",
+      "ttl_inverse_same_input_hashes": true,
+      "ttl_inverse_same_executed_actions": true,
+      "ttl_inverse_common_steps_max_abs_action_diff": 0.0,
+      "fresh_stale_first_action_difference_step": 17,
+      "fresh_stale_common_prefix_disagreement": 0.8832116788321168,
+      "common_prefix_steps": 137
+    },
+    {
+      "suite": "libero_goal",
+      "ttl_inverse_same_input_hashes": true,
+      "ttl_inverse_same_executed_actions": true,
+      "ttl_inverse_common_steps_max_abs_action_diff": 0.0,
+      "fresh_stale_first_action_difference_step": 17,
+      "fresh_stale_common_prefix_disagreement": 0.8832116788321168,
+      "common_prefix_steps": 137
+    }
+  ],
+  "limitations": [
+    "No calibrated FRAME selector or imagination intervention",
+    "Fixed deterministic RNG and arm order; wall times are descriptive only",
+    "Simulation frozen during inference; renderer runs each action for all arms",
+    "memory_bytes counts payload and inverse map only; temporary arrays, Python objects, model and simulator excluded",
+    "No task-population success inference, p-value or CI from one state per task",
+    "Public Wan tokenizer variant; identity with NVIDIA tokenizer unestablished",
+    "Action disagreement after trajectory divergence combines input and state changes"
+  ]
+}

@@ -1,0 +1,7 @@
+source,arm,estimate,estimand,provenance
+frame_ref3.json,scene,0.05231080675432497,legacy aggregate loss / legacy aggregate prior loss,no exact run commit/hash seed recorded
+frame_ref3.json,scene-perm,1.0820796491474654,legacy aggregate loss / legacy aggregate prior loss,no exact run commit/hash seed recorded
+frame_ref3.json,object,0.7286122758681687,legacy aggregate loss / legacy aggregate prior loss,no exact run commit/hash seed recorded
+frame_ref3_dinov2.json,scene,0.0523108081577803,legacy aggregate loss / legacy aggregate prior loss,no exact run commit/hash seed recorded
+frame_ref3_dinov2.json,scene-perm,1.065561215913595,legacy aggregate loss / legacy aggregate prior loss,no exact run commit/hash seed recorded
+frame_ref3_dinov2.json,object,0.7286122598232451,legacy aggregate loss / legacy aggregate prior loss,no exact run commit/hash seed recorded

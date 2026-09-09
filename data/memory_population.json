@@ -1,0 +1,773 @@
+{
+  "study": "paired memory controls with a learned Cosmos Policy deployment in LIBERO",
+  "classification": "exploratory population control; no calibrated FRAME selector",
+  "complete_episodes": 480,
+  "population_episodes": 360,
+  "paired_initial_states_per_fixed_task": 40,
+  "recovery_pairs": 120,
+  "recovery_pass": true,
+  "executed_source_sha256": "851041b59cca827112b4a1fce013b5719656a299bb6dbe912759653b005459d5",
+  "jobs": [
+    "4523",
+    "4524",
+    "4525"
+  ],
+  "summaries": [
+    {
+      "suite": "libero_spatial",
+      "arm": "fresh",
+      "episodes": 40,
+      "successes": 40,
+      "success_rate": 1.0,
+      "success_exact_95_ci": [
+        0.9119026971211976,
+        1.0
+      ],
+      "steps_median": 77.5,
+      "steps_median_bootstrap_95_ci": [
+        76.0,
+        78.5
+      ],
+      "acquisitions_median": 5.0,
+      "acquisitions_median_bootstrap_95_ci": [
+        5.0,
+        5.0
+      ],
+      "wall_seconds_median": 45.26440557651222,
+      "wall_seconds_median_bootstrap_95_ci": [
+        44.39909706404433,
+        45.89197962265462
+      ],
+      "inference_median_seconds_median": 1.181164454203099,
+      "inference_median_seconds_median_bootstrap_95_ci": [
+        1.1773810386657715,
+        1.1836210042238235
+      ],
+      "inference_p95_seconds_median": 1.1973330366425217,
+      "inference_p95_seconds_median_bootstrap_95_ci": [
+        1.1928733805194498,
+        1.2012322009541094
+      ],
+      "gpu_board_gross_episode_mJ_median": 5346196.5,
+      "gpu_board_gross_episode_mJ_median_bootstrap_95_ci": [
+        5288464.0,
+        5425487.0
+      ],
+      "peak_gpu_allocated_bytes_median": 5107576832.0,
+      "peak_gpu_allocated_bytes_median_bootstrap_95_ci": [
+        5107576832.0,
+        5107576832.0
+      ],
+      "gpu_board_gross_mJ_per_successful_episode_median": 5346196.5
+    },
+    {
+      "suite": "libero_spatial",
+      "arm": "stale",
+      "episodes": 40,
+      "successes": 0,
+      "success_rate": 0.0,
+      "success_exact_95_ci": [
+        0.0,
+        0.08809730287880237
+      ],
+      "steps_median": 220.0,
+      "steps_median_bootstrap_95_ci": [
+        220.0,
+        220.0
+      ],
+      "acquisitions_median": 1.0,
+      "acquisitions_median_bootstrap_95_ci": [
+        1.0,
+        1.0
+      ],
+      "wall_seconds_median": 82.30545243714005,
+      "wall_seconds_median_bootstrap_95_ci": [
+        81.93601137539372,
+        82.77952007437125
+      ],
+      "inference_median_seconds_median": 1.7237762825097889,
+      "inference_median_seconds_median_bootstrap_95_ci": [
+        1.7189954668283463,
+        1.7317585230339319
+      ],
+      "inference_p95_seconds_median": 1.7954818088561297,
+      "inference_p95_seconds_median_bootstrap_95_ci": [
+        1.7814800170017406,
+        1.8102114574750885
+      ],
+      "gpu_board_gross_episode_mJ_median": 18727627.0,
+      "gpu_board_gross_episode_mJ_median_bootstrap_95_ci": [
+        18588639.0,
+        18760962.0
+      ],
+      "peak_gpu_allocated_bytes_median": 5107576832.0,
+      "peak_gpu_allocated_bytes_median_bootstrap_95_ci": [
+        5107576832.0,
+        5107576832.0
+      ],
+      "gpu_board_gross_mJ_per_successful_episode_median": null
+    },
+    {
+      "suite": "libero_spatial",
+      "arm": "ttl",
+      "episodes": 40,
+      "successes": 2,
+      "success_rate": 0.05,
+      "success_exact_95_ci": [
+        0.006113646599350838,
+        0.16919686395941763
+      ],
+      "steps_median": 220.0,
+      "steps_median_bootstrap_95_ci": [
+        220.0,
+        220.0
+      ],
+      "acquisitions_median": 7.0,
+      "acquisitions_median_bootstrap_95_ci": [
+        7.0,
+        7.0
+      ],
+      "wall_seconds_median": 86.73047080263495,
+      "wall_seconds_median_bootstrap_95_ci": [
+        86.46165658859536,
+        87.6210414385423
+      ],
+      "inference_median_seconds_median": 1.7238936133217067,
+      "inference_median_seconds_median_bootstrap_95_ci": [
+        1.7120165356900543,
+        1.7270484301261604
+      ],
+      "inference_p95_seconds_median": 1.7918130686972291,
+      "inference_p95_seconds_median_bootstrap_95_ci": [
+        1.7850828640162946,
+        1.8034976525930688
+      ],
+      "gpu_board_gross_episode_mJ_median": 19478394.5,
+      "gpu_board_gross_episode_mJ_median_bootstrap_95_ci": [
+        19313510.0,
+        19618227.5
+      ],
+      "peak_gpu_allocated_bytes_median": 5107576832.0,
+      "peak_gpu_allocated_bytes_median_bootstrap_95_ci": [
+        5107576832.0,
+        5107576832.0
+      ],
+      "gpu_board_gross_mJ_per_successful_episode_median": 11463333.5
+    },
+    {
+      "suite": "libero_spatial",
+      "arm": "ttl_reindex",
+      "episodes": 40,
+      "successes": 2,
+      "success_rate": 0.05,
+      "success_exact_95_ci": [
+        0.006113646599350838,
+        0.16919686395941763
+      ],
+      "steps_median": 220.0,
+      "steps_median_bootstrap_95_ci": [
+        220.0,
+        220.0
+      ],
+      "acquisitions_median": 7.0,
+      "acquisitions_median_bootstrap_95_ci": [
+        7.0,
+        7.0
+      ],
+      "wall_seconds_median": 86.67254481045529,
+      "wall_seconds_median_bootstrap_95_ci": [
+        86.09825398819521,
+        87.37154504004866
+      ],
+      "inference_median_seconds_median": 1.722576521569863,
+      "inference_median_seconds_median_bootstrap_95_ci": [
+        1.7110129916109145,
+        1.7286062338389456
+      ],
+      "inference_p95_seconds_median": 1.7939202583627774,
+      "inference_p95_seconds_median_bootstrap_95_ci": [
+        1.7815795967588202,
+        1.8126704138470813
+      ],
+      "gpu_board_gross_episode_mJ_median": 19516444.0,
+      "gpu_board_gross_episode_mJ_median_bootstrap_95_ci": [
+        19337315.0,
+        19628938.5
+      ],
+      "peak_gpu_allocated_bytes_median": 5107576832.0,
+      "peak_gpu_allocated_bytes_median_bootstrap_95_ci": [
+        5107576832.0,
+        5107576832.0
+      ],
+      "gpu_board_gross_mJ_per_successful_episode_median": 11497390.0
+    },
+    {
+      "suite": "libero_object",
+      "arm": "fresh",
+      "episodes": 40,
+      "successes": 40,
+      "success_rate": 1.0,
+      "success_exact_95_ci": [
+        0.9119026971211976,
+        1.0
+      ],
+      "steps_median": 139.5,
+      "steps_median_bootstrap_95_ci": [
+        137.0,
+        141.0
+      ],
+      "acquisitions_median": 9.0,
+      "acquisitions_median_bootstrap_95_ci": [
+        9.0,
+        9.0
+      ],
+      "wall_seconds_median": 49.46098664449528,
+      "wall_seconds_median_bootstrap_95_ci": [
+        48.81896986719221,
+        50.335904898587614
+      ],
+      "inference_median_seconds_median": 1.1856779509689659,
+      "inference_median_seconds_median_bootstrap_95_ci": [
+        1.1794238784350455,
+        1.1892624041065574
+      ],
+      "inference_p95_seconds_median": 1.198491969332099,
+      "inference_p95_seconds_median_bootstrap_95_ci": [
+        1.1940393402939664,
+        1.2015930593945086
+      ],
+      "gpu_board_gross_episode_mJ_median": 6850439.5,
+      "gpu_board_gross_episode_mJ_median_bootstrap_95_ci": [
+        6792872.5,
+        6942944.5
+      ],
+      "peak_gpu_allocated_bytes_median": 5107576832.0,
+      "peak_gpu_allocated_bytes_median_bootstrap_95_ci": [
+        5107576832.0,
+        5107576832.0
+      ],
+      "gpu_board_gross_mJ_per_successful_episode_median": 6850439.5
+    },
+    {
+      "suite": "libero_object",
+      "arm": "stale",
+      "episodes": 40,
+      "successes": 0,
+      "success_rate": 0.0,
+      "success_exact_95_ci": [
+        0.0,
+        0.08809730287880237
+      ],
+      "steps_median": 280.0,
+      "steps_median_bootstrap_95_ci": [
+        280.0,
+        280.0
+      ],
+      "acquisitions_median": 1.0,
+      "acquisitions_median_bootstrap_95_ci": [
+        1.0,
+        1.0
+      ],
+      "wall_seconds_median": 91.79921322362497,
+      "wall_seconds_median_bootstrap_95_ci": [
+        91.37252743681893,
+        92.49344530887902
+      ],
+      "inference_median_seconds_median": 1.1989097746554762,
+      "inference_median_seconds_median_bootstrap_95_ci": [
+        1.1981063100975007,
+        1.200793256983161
+      ],
+      "inference_p95_seconds_median": 1.2096941210795196,
+      "inference_p95_seconds_median_bootstrap_95_ci": [
+        1.209086322481744,
+        1.2107027596794069
+      ],
+      "gpu_board_gross_episode_mJ_median": 13202362.0,
+      "gpu_board_gross_episode_mJ_median_bootstrap_95_ci": [
+        13151752.5,
+        13260642.5
+      ],
+      "peak_gpu_allocated_bytes_median": 5107576832.0,
+      "peak_gpu_allocated_bytes_median_bootstrap_95_ci": [
+        5107576832.0,
+        5107576832.0
+      ],
+      "gpu_board_gross_mJ_per_successful_episode_median": null
+    },
+    {
+      "suite": "libero_object",
+      "arm": "ttl",
+      "episodes": 40,
+      "successes": 12,
+      "success_rate": 0.3,
+      "success_exact_95_ci": [
+        0.16562720439323558,
+        0.4653162852541233
+      ],
+      "steps_median": 280.0,
+      "steps_median_bootstrap_95_ci": [
+        280.0,
+        280.0
+      ],
+      "acquisitions_median": 9.0,
+      "acquisitions_median_bootstrap_95_ci": [
+        9.0,
+        9.0
+      ],
+      "wall_seconds_median": 97.27785186702386,
+      "wall_seconds_median_bootstrap_95_ci": [
+        96.89868340827525,
+        97.98571555223316
+      ],
+      "inference_median_seconds_median": 1.198386701522395,
+      "inference_median_seconds_median_bootstrap_95_ci": [
+        1.1977620548568666,
+        1.1992646160069853
+      ],
+      "inference_p95_seconds_median": 1.2093350224429742,
+      "inference_p95_seconds_median_bootstrap_95_ci": [
+        1.2083219928434117,
+        1.2096656154608354
+      ],
+      "gpu_board_gross_episode_mJ_median": 13696486.5,
+      "gpu_board_gross_episode_mJ_median_bootstrap_95_ci": [
+        13630056.5,
+        13737224.5
+      ],
+      "peak_gpu_allocated_bytes_median": 5107576832.0,
+      "peak_gpu_allocated_bytes_median_bootstrap_95_ci": [
+        5107576832.0,
+        5107576832.0
+      ],
+      "gpu_board_gross_mJ_per_successful_episode_median": 13243264.5
+    },
+    {
+      "suite": "libero_object",
+      "arm": "ttl_reindex",
+      "episodes": 40,
+      "successes": 12,
+      "success_rate": 0.3,
+      "success_exact_95_ci": [
+        0.16562720439323558,
+        0.4653162852541233
+      ],
+      "steps_median": 280.0,
+      "steps_median_bootstrap_95_ci": [
+        280.0,
+        280.0
+      ],
+      "acquisitions_median": 9.0,
+      "acquisitions_median_bootstrap_95_ci": [
+        9.0,
+        9.0
+      ],
+      "wall_seconds_median": 97.4670130815357,
+      "wall_seconds_median_bootstrap_95_ci": [
+        96.50314055290073,
+        98.1515908059664
+      ],
+      "inference_median_seconds_median": 1.1972143701277673,
+      "inference_median_seconds_median_bootstrap_95_ci": [
+        1.1963773590978235,
+        1.1982175193261355
+      ],
+      "inference_p95_seconds_median": 1.2072529285913332,
+      "inference_p95_seconds_median_bootstrap_95_ci": [
+        1.206663960404694,
+        1.2081389279570431
+      ],
+      "gpu_board_gross_episode_mJ_median": 13694130.5,
+      "gpu_board_gross_episode_mJ_median_bootstrap_95_ci": [
+        13608788.5,
+        13781965.5
+      ],
+      "peak_gpu_allocated_bytes_median": 5107576832.0,
+      "peak_gpu_allocated_bytes_median_bootstrap_95_ci": [
+        5107576832.0,
+        5107576832.0
+      ],
+      "gpu_board_gross_mJ_per_successful_episode_median": 13206849.5
+    },
+    {
+      "suite": "libero_goal",
+      "arm": "fresh",
+      "episodes": 40,
+      "successes": 40,
+      "success_rate": 1.0,
+      "success_exact_95_ci": [
+        0.9119026971211976,
+        1.0
+      ],
+      "steps_median": 122.0,
+      "steps_median_bootstrap_95_ci": [
+        121.0,
+        126.0
+      ],
+      "acquisitions_median": 8.0,
+      "acquisitions_median_bootstrap_95_ci": [
+        8.0,
+        8.0
+      ],
+      "wall_seconds_median": 56.70334190642461,
+      "wall_seconds_median_bootstrap_95_ci": [
+        55.919428679626435,
+        57.988895209506154
+      ],
+      "inference_median_seconds_median": 1.1851462868507951,
+      "inference_median_seconds_median_bootstrap_95_ci": [
+        1.1771099497564137,
+        1.1871887692250311
+      ],
+      "inference_p95_seconds_median": 1.2025936495279894,
+      "inference_p95_seconds_median_bootstrap_95_ci": [
+        1.1985675622709095,
+        1.2111396643333139
+      ],
+      "gpu_board_gross_episode_mJ_median": 7217918.5,
+      "gpu_board_gross_episode_mJ_median_bootstrap_95_ci": [
+        7145645.0,
+        7350871.0
+      ],
+      "peak_gpu_allocated_bytes_median": 5107576832.0,
+      "peak_gpu_allocated_bytes_median_bootstrap_95_ci": [
+        5107576832.0,
+        5107576832.0
+      ],
+      "gpu_board_gross_mJ_per_successful_episode_median": 7217918.5
+    },
+    {
+      "suite": "libero_goal",
+      "arm": "stale",
+      "episodes": 40,
+      "successes": 0,
+      "success_rate": 0.0,
+      "success_exact_95_ci": [
+        0.0,
+        0.08809730287880237
+      ],
+      "steps_median": 300.0,
+      "steps_median_bootstrap_95_ci": [
+        300.0,
+        300.0
+      ],
+      "acquisitions_median": 1.0,
+      "acquisitions_median_bootstrap_95_ci": [
+        1.0,
+        1.0
+      ],
+      "wall_seconds_median": 134.3206995143555,
+      "wall_seconds_median_bootstrap_95_ci": [
+        133.54701188160107,
+        134.70539929671213
+      ],
+      "inference_median_seconds_median": 1.1933359797112644,
+      "inference_median_seconds_median_bootstrap_95_ci": [
+        1.1929890206083655,
+        1.1937515963800251
+      ],
+      "inference_p95_seconds_median": 1.2083416997455059,
+      "inference_p95_seconds_median_bootstrap_95_ci": [
+        1.2071505047846585,
+        1.2087919285520912
+      ],
+      "gpu_board_gross_episode_mJ_median": 18091383.5,
+      "gpu_board_gross_episode_mJ_median_bootstrap_95_ci": [
+        18048422.0,
+        18144083.0
+      ],
+      "peak_gpu_allocated_bytes_median": 5107576832.0,
+      "peak_gpu_allocated_bytes_median_bootstrap_95_ci": [
+        5107576832.0,
+        5107576832.0
+      ],
+      "gpu_board_gross_mJ_per_successful_episode_median": null
+    },
+    {
+      "suite": "libero_goal",
+      "arm": "ttl",
+      "episodes": 40,
+      "successes": 40,
+      "success_rate": 1.0,
+      "success_exact_95_ci": [
+        0.9119026971211976,
+        1.0
+      ],
+      "steps_median": 146.0,
+      "steps_median_bootstrap_95_ci": [
+        141.5,
+        148.0
+      ],
+      "acquisitions_median": 5.0,
+      "acquisitions_median_bootstrap_95_ci": [
+        5.0,
+        5.0
+      ],
+      "wall_seconds_median": 67.7689627604559,
+      "wall_seconds_median_bootstrap_95_ci": [
+        64.9381847619079,
+        68.88801047159359
+      ],
+      "inference_median_seconds_median": 1.193554365541786,
+      "inference_median_seconds_median_bootstrap_95_ci": [
+        1.193056414136663,
+        1.1947977526579052
+      ],
+      "inference_p95_seconds_median": 1.210459906072356,
+      "inference_p95_seconds_median_bootstrap_95_ci": [
+        1.2083738645305857,
+        1.212931824941188
+      ],
+      "gpu_board_gross_episode_mJ_median": 9192714.5,
+      "gpu_board_gross_episode_mJ_median_bootstrap_95_ci": [
+        8669838.5,
+        9306752.5
+      ],
+      "peak_gpu_allocated_bytes_median": 5107576832.0,
+      "peak_gpu_allocated_bytes_median_bootstrap_95_ci": [
+        5107576832.0,
+        5107576832.0
+      ],
+      "gpu_board_gross_mJ_per_successful_episode_median": 9192714.5
+    },
+    {
+      "suite": "libero_goal",
+      "arm": "ttl_reindex",
+      "episodes": 40,
+      "successes": 40,
+      "success_rate": 1.0,
+      "success_exact_95_ci": [
+        0.9119026971211976,
+        1.0
+      ],
+      "steps_median": 146.0,
+      "steps_median_bootstrap_95_ci": [
+        141.5,
+        148.0
+      ],
+      "acquisitions_median": 5.0,
+      "acquisitions_median_bootstrap_95_ci": [
+        5.0,
+        5.0
+      ],
+      "wall_seconds_median": 67.35177731094882,
+      "wall_seconds_median_bootstrap_95_ci": [
+        64.80338838603348,
+        68.85002454882488
+      ],
+      "inference_median_seconds_median": 1.1926606204360723,
+      "inference_median_seconds_median_bootstrap_95_ci": [
+        1.191913043614477,
+        1.1946722797583789
+      ],
+      "inference_p95_seconds_median": 1.208044021879323,
+      "inference_p95_seconds_median_bootstrap_95_ci": [
+        1.206524852011353,
+        1.210745681100525
+      ],
+      "gpu_board_gross_episode_mJ_median": 9135952.0,
+      "gpu_board_gross_episode_mJ_median_bootstrap_95_ci": [
+        8635095.5,
+        9276507.0
+      ],
+      "peak_gpu_allocated_bytes_median": 5107576832.0,
+      "peak_gpu_allocated_bytes_median_bootstrap_95_ci": [
+        5107576832.0,
+        5107576832.0
+      ],
+      "gpu_board_gross_mJ_per_successful_episode_median": 9135952.0
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "suite": "libero_spatial",
+      "left_arm": "stale",
+      "right_arm": "fresh",
+      "paired_states": 40,
+      "success_rate_difference": -1.0,
+      "success_rate_difference_paired_bootstrap_95_ci": [
+        -1.0,
+        -1.0
+      ],
+      "left_success_right_failure": 0,
+      "left_failure_right_success": 40,
+      "mcnemar_exact_raw_p": 1.8189894035458565e-12,
+      "median_common_prefix_action_disagreement": 0.7935397935397935
+    },
+    {
+      "suite": "libero_spatial",
+      "left_arm": "ttl",
+      "right_arm": "fresh",
+      "paired_states": 40,
+      "success_rate_difference": -0.95,
+      "success_rate_difference_paired_bootstrap_95_ci": [
+        -1.0,
+        -0.875
+      ],
+      "left_success_right_failure": 0,
+      "left_failure_right_success": 38,
+      "mcnemar_exact_raw_p": 7.275957614183426e-12,
+      "median_common_prefix_action_disagreement": 0.7935397935397935
+    },
+    {
+      "suite": "libero_spatial",
+      "left_arm": "ttl_reindex",
+      "right_arm": "fresh",
+      "paired_states": 40,
+      "success_rate_difference": -0.95,
+      "success_rate_difference_paired_bootstrap_95_ci": [
+        -1.0,
+        -0.875
+      ],
+      "left_success_right_failure": 0,
+      "left_failure_right_success": 38,
+      "mcnemar_exact_raw_p": 7.275957614183426e-12,
+      "median_common_prefix_action_disagreement": 0.7935397935397935
+    },
+    {
+      "suite": "libero_spatial",
+      "left_arm": "ttl_reindex",
+      "right_arm": "ttl",
+      "paired_states": 40,
+      "success_rate_difference": 0.0,
+      "success_rate_difference_paired_bootstrap_95_ci": [
+        0.0,
+        0.0
+      ],
+      "left_success_right_failure": 0,
+      "left_failure_right_success": 0,
+      "mcnemar_exact_raw_p": 1.0,
+      "median_common_prefix_action_disagreement": 0.0
+    },
+    {
+      "suite": "libero_object",
+      "left_arm": "stale",
+      "right_arm": "fresh",
+      "paired_states": 40,
+      "success_rate_difference": -1.0,
+      "success_rate_difference_paired_bootstrap_95_ci": [
+        -1.0,
+        -1.0
+      ],
+      "left_success_right_failure": 0,
+      "left_failure_right_success": 40,
+      "mcnemar_exact_raw_p": 1.8189894035458565e-12,
+      "median_common_prefix_action_disagreement": 0.8853031860226105
+    },
+    {
+      "suite": "libero_object",
+      "left_arm": "ttl",
+      "right_arm": "fresh",
+      "paired_states": 40,
+      "success_rate_difference": -0.7,
+      "success_rate_difference_paired_bootstrap_95_ci": [
+        -0.825,
+        -0.55
+      ],
+      "left_success_right_failure": 0,
+      "left_failure_right_success": 28,
+      "mcnemar_exact_raw_p": 7.450580596923828e-09,
+      "median_common_prefix_action_disagreement": 0.8853031860226105
+    },
+    {
+      "suite": "libero_object",
+      "left_arm": "ttl_reindex",
+      "right_arm": "fresh",
+      "paired_states": 40,
+      "success_rate_difference": -0.7,
+      "success_rate_difference_paired_bootstrap_95_ci": [
+        -0.825,
+        -0.55
+      ],
+      "left_success_right_failure": 0,
+      "left_failure_right_success": 28,
+      "mcnemar_exact_raw_p": 7.450580596923828e-09,
+      "median_common_prefix_action_disagreement": 0.8853031860226105
+    },
+    {
+      "suite": "libero_object",
+      "left_arm": "ttl_reindex",
+      "right_arm": "ttl",
+      "paired_states": 40,
+      "success_rate_difference": 0.0,
+      "success_rate_difference_paired_bootstrap_95_ci": [
+        0.0,
+        0.0
+      ],
+      "left_success_right_failure": 0,
+      "left_failure_right_success": 0,
+      "mcnemar_exact_raw_p": 1.0,
+      "median_common_prefix_action_disagreement": 0.0
+    },
+    {
+      "suite": "libero_goal",
+      "left_arm": "stale",
+      "right_arm": "fresh",
+      "paired_states": 40,
+      "success_rate_difference": -1.0,
+      "success_rate_difference_paired_bootstrap_95_ci": [
+        -1.0,
+        -1.0
+      ],
+      "left_success_right_failure": 0,
+      "left_failure_right_success": 40,
+      "mcnemar_exact_raw_p": 1.8189894035458565e-12,
+      "median_common_prefix_action_disagreement": 0.8688524590163934
+    },
+    {
+      "suite": "libero_goal",
+      "left_arm": "ttl",
+      "right_arm": "fresh",
+      "paired_states": 40,
+      "success_rate_difference": 0.0,
+      "success_rate_difference_paired_bootstrap_95_ci": [
+        0.0,
+        0.0
+      ],
+      "left_success_right_failure": 0,
+      "left_failure_right_success": 0,
+      "mcnemar_exact_raw_p": 1.0,
+      "median_common_prefix_action_disagreement": 0.8688524590163934
+    },
+    {
+      "suite": "libero_goal",
+      "left_arm": "ttl_reindex",
+      "right_arm": "fresh",
+      "paired_states": 40,
+      "success_rate_difference": 0.0,
+      "success_rate_difference_paired_bootstrap_95_ci": [
+        0.0,
+        0.0
+      ],
+      "left_success_right_failure": 0,
+      "left_failure_right_success": 0,
+      "mcnemar_exact_raw_p": 1.0,
+      "median_common_prefix_action_disagreement": 0.8688524590163934
+    },
+    {
+      "suite": "libero_goal",
+      "left_arm": "ttl_reindex",
+      "right_arm": "ttl",
+      "paired_states": 40,
+      "success_rate_difference": 0.0,
+      "success_rate_difference_paired_bootstrap_95_ci": [
+        0.0,
+        0.0
+      ],
+      "left_success_right_failure": 0,
+      "left_failure_right_success": 0,
+      "mcnemar_exact_raw_p": 1.0,
+      "median_common_prefix_action_disagreement": 0.0
+    }
+  ],
+  "multiple_testing": "Exploratory raw p-values only; no confirmatory family or corrected discovery claim.",
+  "statistical_scope": "Intervals resample initial states within each fixed task. With three preselected tasks, they do not support broad LIBERO-suite or cross-task generalization.",
+  "limitations": [
+    "TTL and stale retrieval are controls, not the calibrated FRAME policy.",
+    "The public Wan tokenizer variant has unestablished identity with NVIDIA's access-restricted file.",
+    "Synchronous simulation freezes physics during model inference.",
+    "Gross GPU-board energy excludes CPU, sensing hardware, display, and physical-robot energy.",
+    "The fresh baseline was executed earlier than the memory controls; machine-load and run-order effects remain.",
+    "Action disagreement after trajectory divergence combines input and simulator-state differences."
+  ]
+}

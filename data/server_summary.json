@@ -1,0 +1,18 @@
+[
+  {
+    "device": "cpu",
+    "cases": 76,
+    "blocks": 5852,
+    "correct_checks": 456,
+    "gpu": null,
+    "elapsed_s": 926.0281732082367
+  },
+  {
+    "device": "cuda",
+    "cases": 76,
+    "blocks": 5852,
+    "correct_checks": 456,
+    "gpu": "NVIDIA RTX A6000",
+    "elapsed_s": 313.6357181072235
+  }
+]

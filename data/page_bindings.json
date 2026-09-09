@@ -1,0 +1,32 @@
+[
+  {
+    "claim_id": "AUDIT-L1",
+    "value": 0.05200744469536301,
+    "display": "0.0520"
+  },
+  {
+    "claim_id": "AUDIT-L2",
+    "value": 0.05275670685473591,
+    "display": "0.0528"
+  },
+  {
+    "claim_id": "AUDIT-L3",
+    "value": 1.0729908720974883,
+    "display": "1.0730"
+  },
+  {
+    "claim_id": "AUDIT-L4",
+    "value": 1.1208015543396634,
+    "display": "1.1208"
+  },
+  {
+    "claim_id": "AUDIT-L5",
+    "value": 0.05200744469536301,
+    "display": "0.0520"
+  },
+  {
+    "claim_id": "AUDIT-L6",
+    "value": 0.05275670685473591,
+    "display": "0.0528"
+  }
+]

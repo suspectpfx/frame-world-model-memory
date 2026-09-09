@@ -1,0 +1,51 @@
+{
+  "version": "2026-09-08",
+  "purpose": "Falsifiable consumer-conditioned memory claims",
+  "classification": "registered design; execution gates apply",
+  "global_rules": {
+    "retain_negative_results": true,
+    "no_test_set_policy_tuning": true,
+    "paired_initial_conditions": true,
+    "primary_generalization_unit": "task",
+    "confirmatory_correction": "Holm across H1-H4 primary endpoints only after margins are frozen",
+    "pilot_is_exploratory": true,
+    "scale_up_requires_pilot_pass": true
+  },
+  "studies": [
+    {
+      "id": "H1", "claim": "Consumer conditioning changes the minimum feasible memory representation",
+      "factors": {"consumer": ["action", "future_prediction", "value"], "image_side": [224, 160, 112, 80, 56], "precision_bits": [8, 6, 4], "age_action_steps": [0, 16, 32, 64, 128], "prior": ["within_sequence_time_shuffle", "independent_cross_sequence"]},
+      "fixed_controls": ["same pretrained weights", "same observation decoder", "same tasks and initial conditions", "independent fidelity and granularity factors"],
+      "endpoint": "consumer-by-representation interaction and distinct feasible sets at calibrated task tolerances",
+      "falsification": "a common fixed representation meets all contracts with indistinguishable resource cost",
+      "gate": "consumer outputs and losses validated; train/calibration/test split frozen"
+    },
+    {
+      "id": "H2", "claim": "Unknown reversible addressing harms a spatial reader and a retained inverse restores utility",
+      "factors": {"layout": ["canonical", "hidden_random_permutation", "inverse_materialized", "inverse_fused", "transpose", "blocking"], "consumer": ["spatial_reader", "permutation_invariant_control"]},
+      "checks": ["bitwise payload recovery", "fixed-consumer output tolerance", "identical model RNG", "identical preprocessing"],
+      "endpoint": "paired task-output loss difference and recovery equivalence with a predeclared tolerance",
+      "falsification": "recovery fails, or the supposed spatial consumer is invariant to the intervention",
+      "gate": "correctness before timing; pooling analyzed separately"
+    },
+    {
+      "id": "H3", "claim": "Layout strategies occupy different feasible storage-latency-energy points under specified workloads",
+      "factors": {"payload_bytes": [1024, 4096, 16384, 65536, 262144, 1048576, 4194304, 16777216, 67108864], "reuse": [1,2,4,8,16,32,64,128], "consumers": [1,3], "rank": [8,16,64,384], "cache_condition": ["warm", "LLC_scale", "beyond_LLC"], "device": ["CPU", "GPU"], "tenancy": ["single", "interleaved", "parallel"]},
+      "arms": ["A", "B_diagnostic", "C", "D", "E", "F", "G"],
+      "repeated_blocks": 30,
+      "endpoint": "paired lifecycle median differences and resource feasibility; latency and energy analyzed separately",
+      "falsification": "reindex is practically equivalent throughout the deployment range; preservation is downgraded",
+      "gate": "paired kernel capabilities, hardware-counter availability and practical-equivalence margins frozen",
+      "execution": "screening factorial followed by independently collected confirmatory boundary points; no assumed crossing"
+    },
+    {
+      "id": "H4", "claim": "FRAME improves a closed-loop task-resource frontier under a learned world-action model",
+      "pilot": {"suites": ["libero_spatial", "libero_object", "libero_goal"], "task_id_each": 0, "paired_states_per_task": 40, "arms": ["fresh", "stale", "ttl", "fixed_fidelity", "frame_preserve", "frame_reindex", "no_consumer_conditioning", "no_imagination", "lightweight_predictor", "learned_imagination"], "timing_modes": ["synchronous", "latency_aware"], "planned_episodes": 2400},
+      "gates": ["official or validated alternative tokenizer", "stable fresh baseline", "memory intervention changes executed actions", "no ground-truth leakage", "calibration fixed on disjoint data", "stable timing and energy", "sufficient successes and failures"],
+      "full_study": "expand to LIBERO suites only after pilot; sample size selected from minimum effect and task-level pilot variance",
+      "replication": "RoboTwin: 5-10 preselected tasks, compatible bimanual learned model required",
+      "endpoint": "equal-task paired success/resource frontier; hierarchical task-then-state resampling",
+      "falsification": "no nondominated improvement, quality-constraint violations, or gains disappear with matched decoders and sensing"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "study": "fresh_baseline_initial_state_validation",
+  "classification": "exploratory deployment baseline; no FRAME comparison",
+  "checkpoint_sha256": "8818528d8c9150cda0ddf8c711b0f221b21dac8ac379bd26d5690235954d33e2",
+  "tokenizer_sha256": "38071ab59bd94681c686fa51d75a1968f64e470262043be31f7a094e442fd981",
+  "tokenizer_variant": "Wan-AI public VAE; NVIDIA identity unestablished",
+  "gpu": "NVIDIA RTX A6000",
+  "energy": {
+    "domain": "GPU board",
+    "device_uuid": "GPU-60edcaae-42d7-3ede-9336-71fcf2b76786",
+    "kind": "measured cumulative gross energy",
+    "unit": "mJ",
+    "scope": "allocated GPU only; excludes CPU, sensing hardware and whole robot"
+  },
+  "timing": "synchronous",
+  "episodes": 120,
+  "summaries": [
+    {
+      "suite": "libero_spatial",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "initial_states": 40,
+      "successes": 40,
+      "success_rate": 1.0,
+      "success_exact_95_ci": [
+        0.9119026971211976,
+        1.0
+      ],
+      "steps_median": 77.5,
+      "steps_median_bootstrap_95_ci": [
+        76.0,
+        78.5
+      ],
+      "inference_median_seconds_median": 1.181164454203099,
+      "inference_median_seconds_median_bootstrap_95_ci": [
+        1.1773810386657715,
+        1.1836210042238235
+      ],
+      "inference_p95_seconds_median": 1.1973330366425217,
+      "inference_p95_seconds_median_bootstrap_95_ci": [
+        1.1928733805194498,
+        1.2012322009541094
+      ],
+      "wall_seconds_median": 45.26440557651222,
+      "wall_seconds_median_bootstrap_95_ci": [
+        44.39909706404433,
+        45.89197962265462
+      ],
+      "gpu_board_gross_episode_mJ_median": 5346196.5,
+      "gpu_board_gross_episode_mJ_median_bootstrap_95_ci": [
+        5288464.0,
+        5425487.0
+      ]
+    },
+    {
+      "suite": "libero_object",
+      "task": "pick up the alphabet soup and place it in the basket",
+      "initial_states": 40,
+      "successes": 40,
+      "success_rate": 1.0,
+      "success_exact_95_ci": [
+        0.9119026971211976,
+        1.0
+      ],
+      "steps_median": 139.5,
+      "steps_median_bootstrap_95_ci": [
+        137.0,
+        141.0
+      ],
+      "inference_median_seconds_median": 1.1856779509689659,
+      "inference_median_seconds_median_bootstrap_95_ci": [
+        1.1794238784350455,
+        1.1892624041065574
+      ],
+      "inference_p95_seconds_median": 1.198491969332099,
+      "inference_p95_seconds_median_bootstrap_95_ci": [
+        1.1940393402939664,
+        1.2015930593945086
+      ],
+      "wall_seconds_median": 49.46098664449528,
+      "wall_seconds_median_bootstrap_95_ci": [
+        48.81896986719221,
+        50.335904898587614
+      ],
+      "gpu_board_gross_episode_mJ_median": 6850439.5,
+      "gpu_board_gross_episode_mJ_median_bootstrap_95_ci": [
+        6792872.5,
+        6942944.5
+      ]
+    },
+    {
+      "suite": "libero_goal",
+      "task": "open the middle drawer of the cabinet",
+      "initial_states": 40,
+      "successes": 40,
+      "success_rate": 1.0,
+      "success_exact_95_ci": [
+        0.9119026971211976,
+        1.0
+      ],
+      "steps_median": 122.0,
+      "steps_median_bootstrap_95_ci": [
+        121.0,
+        126.0
+      ],
+      "inference_median_seconds_median": 1.1851462868507951,
+      "inference_median_seconds_median_bootstrap_95_ci": [
+        1.1771099497564137,
+        1.1871887692250311
+      ],
+      "inference_p95_seconds_median": 1.2025936495279894,
+      "inference_p95_seconds_median_bootstrap_95_ci": [
+        1.1985675622709095,
+        1.2111396643333139
+      ],
+      "wall_seconds_median": 56.70334190642461,
+      "wall_seconds_median_bootstrap_95_ci": [
+        55.919428679626435,
+        57.988895209506154
+      ],
+      "gpu_board_gross_episode_mJ_median": 7217918.5,
+      "gpu_board_gross_episode_mJ_median_bootstrap_95_ci": [
+        7145645.0,
+        7350871.0
+      ]
+    }
+  ],
+  "statistical_scope": "Exact intervals describe initial-state success within each fixed task. Medians resample initial states within task. Three tasks do not support a broad LIBERO-suite generalization claim.",
+  "limitations": [
+    "Fresh-observation baseline only; no comparative FRAME effect.",
+    "The public Wan tokenizer variant has unestablished identity with the NVIDIA-gated tokenizer.",
+    "Synchronous simulation freezes physics during model inference.",
+    "Gross cumulative energy covers the allocated GPU board and excludes CPU, sensing hardware, and a physical robot.",
+    "All 120 episodes succeeded, so the study does not estimate failure-mode effects or success-rate differences."
+  ]
+}

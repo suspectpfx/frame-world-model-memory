@@ -1,0 +1,21 @@
+{
+  "artifact": "project-page/figures/fig_frame_publication_pipeline.svg",
+  "figma_download": "project-page/downloads/FRAME_publication_pipeline_Figma.svg",
+  "renderer": "scripts/render_publication_pipeline.py",
+  "kind": "conceptual_method_diagram_with_audited_evidence_labels",
+  "editable": true,
+  "figma_import": "Import the SVG directly; text remains text and geometry remains vector.",
+  "measured_sources": [
+    "project-page/data/memory_population_episodes.csv",
+    "project-page/data/memory_population_recovery.csv",
+    "project-page/data/serving_long.csv",
+    "project-page/data/consumer_error.csv"
+  ],
+  "visual_source_media": [
+    "project-page/media/world-model/libero_spatial_observation.jpg",
+    "project-page/media/world-model/libero_spatial_prediction.jpg",
+    "project-page/media/world-model/libero_spatial_realized.jpg"
+  ],
+  "scientific_boundary": "Solid paths are implemented or measured. Dashed paths are proposed or gated and carry no task-gain claim.",
+  "sha256": "a3fc88f74538914052e0c1e801a484f97b4d5edd07f6b68ff9ac3407771c0ed2"
+}

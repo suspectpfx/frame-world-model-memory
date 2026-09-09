@@ -1,0 +1,21 @@
+suite,task,initial_state,decision_step,target_step,rgb_mae_0_1,unit,interpretation
+libero_spatial,pick up the black bowl between the plate and the ramekin and place it on the plate,0,0,16,0.012223378934907296,aligned decision within one episode,retrospective image residual; no calibrated confidence
+libero_spatial,pick up the black bowl between the plate and the ramekin and place it on the plate,0,16,32,0.014450050853674803,aligned decision within one episode,retrospective image residual; no calibrated confidence
+libero_spatial,pick up the black bowl between the plate and the ramekin and place it on the plate,0,32,48,0.020769922552354277,aligned decision within one episode,retrospective image residual; no calibrated confidence
+libero_spatial,pick up the black bowl between the plate and the ramekin and place it on the plate,0,48,64,0.01751156191643324,aligned decision within one episode,retrospective image residual; no calibrated confidence
+libero_object,pick up the alphabet soup and place it in the basket,0,0,16,0.017876186933106577,aligned decision within one episode,retrospective image residual; no calibrated confidence
+libero_object,pick up the alphabet soup and place it in the basket,0,16,32,0.019774368080565558,aligned decision within one episode,retrospective image residual; no calibrated confidence
+libero_object,pick up the alphabet soup and place it in the basket,0,32,48,0.021926635237428303,aligned decision within one episode,retrospective image residual; no calibrated confidence
+libero_object,pick up the alphabet soup and place it in the basket,0,48,64,0.017947673861211152,aligned decision within one episode,retrospective image residual; no calibrated confidence
+libero_object,pick up the alphabet soup and place it in the basket,0,64,80,0.017107780612244897,aligned decision within one episode,retrospective image residual; no calibrated confidence
+libero_object,pick up the alphabet soup and place it in the basket,0,80,96,0.017736026702347606,aligned decision within one episode,retrospective image residual; no calibrated confidence
+libero_object,pick up the alphabet soup and place it in the basket,0,96,112,0.017782920459850606,aligned decision within one episode,retrospective image residual; no calibrated confidence
+libero_object,pick up the alphabet soup and place it in the basket,0,112,128,0.024135096747032146,aligned decision within one episode,retrospective image residual; no calibrated confidence
+libero_goal,open the middle drawer of the cabinet,0,0,16,0.012888228207949846,aligned decision within one episode,retrospective image residual; no calibrated confidence
+libero_goal,open the middle drawer of the cabinet,0,16,32,0.01566814225690276,aligned decision within one episode,retrospective image residual; no calibrated confidence
+libero_goal,open the middle drawer of the cabinet,0,32,48,0.026049456240829664,aligned decision within one episode,retrospective image residual; no calibrated confidence
+libero_goal,open the middle drawer of the cabinet,0,48,64,0.026067275868680802,aligned decision within one episode,retrospective image residual; no calibrated confidence
+libero_goal,open the middle drawer of the cabinet,0,64,80,0.030085862469987994,aligned decision within one episode,retrospective image residual; no calibrated confidence
+libero_goal,open the middle drawer of the cabinet,0,80,96,0.038222163865546215,aligned decision within one episode,retrospective image residual; no calibrated confidence
+libero_goal,open the middle drawer of the cabinet,0,96,112,0.02647144795418167,aligned decision within one episode,retrospective image residual; no calibrated confidence
+libero_goal,open the middle drawer of the cabinet,0,112,128,0.04515772454815259,aligned decision within one episode,retrospective image residual; no calibrated confidence

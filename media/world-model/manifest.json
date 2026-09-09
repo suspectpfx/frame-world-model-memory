@@ -1,0 +1,140 @@
+[
+  {
+    "suite": "libero_spatial",
+    "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "state_index": 0,
+    "horizon_actions": 16,
+    "matched_full_chunks": 4,
+    "terminal_partial_chunks_excluded": true,
+    "preprocessing": "Upstream prepare_images_for_model; JPEG95, resize224, evaluation image transforms",
+    "action_trace_sha256": "495b41c95c9b7bce6d712893129415d47f1686174014e1f67ddeda81cc8d9841",
+    "source_sha256": "60e78cc2dfd87a79528c0d3084ad918d2c12837dcf86eb125f09b6d7c4c6295d",
+    "comparative_frame_gain": false,
+    "media": {
+      "observation": {
+        "video": "media/world-model/libero_spatial_observation.mp4",
+        "poster": "media/world-model/libero_spatial_observation.jpg"
+      },
+      "prediction": {
+        "video": "media/world-model/libero_spatial_prediction.mp4",
+        "poster": "media/world-model/libero_spatial_prediction.jpg"
+      },
+      "realized": {
+        "video": "media/world-model/libero_spatial_realized.mp4",
+        "poster": "media/world-model/libero_spatial_realized.jpg"
+      },
+      "pixel_error": {
+        "video": "media/world-model/libero_spatial_pixel_error.mp4",
+        "poster": "media/world-model/libero_spatial_pixel_error.jpg"
+      },
+      "patch_error": {
+        "video": "media/world-model/libero_spatial_patch_error.mp4",
+        "poster": "media/world-model/libero_spatial_patch_error.jpg"
+      },
+      "error_overlay": {
+        "video": "media/world-model/libero_spatial_error_overlay.mp4",
+        "poster": "media/world-model/libero_spatial_error_overlay.jpg"
+      }
+    },
+    "rollout": "media/world-model/libero_spatial_rollout.mp4",
+    "display_seconds": 4,
+    "error_scale": [
+      0,
+      1
+    ],
+    "error_definition": "mean absolute RGB difference / 255; patch means use 16x16 pixels",
+    "residual_is_predicted": false
+  },
+  {
+    "suite": "libero_object",
+    "task": "pick up the alphabet soup and place it in the basket",
+    "state_index": 0,
+    "horizon_actions": 16,
+    "matched_full_chunks": 8,
+    "terminal_partial_chunks_excluded": true,
+    "preprocessing": "Upstream prepare_images_for_model; JPEG95, resize224, evaluation image transforms",
+    "action_trace_sha256": "cab6885f3f26ac43058679a400b87788801b0f047933581d7e8645869a8369eb",
+    "source_sha256": "60e78cc2dfd87a79528c0d3084ad918d2c12837dcf86eb125f09b6d7c4c6295d",
+    "comparative_frame_gain": false,
+    "media": {
+      "observation": {
+        "video": "media/world-model/libero_object_observation.mp4",
+        "poster": "media/world-model/libero_object_observation.jpg"
+      },
+      "prediction": {
+        "video": "media/world-model/libero_object_prediction.mp4",
+        "poster": "media/world-model/libero_object_prediction.jpg"
+      },
+      "realized": {
+        "video": "media/world-model/libero_object_realized.mp4",
+        "poster": "media/world-model/libero_object_realized.jpg"
+      },
+      "pixel_error": {
+        "video": "media/world-model/libero_object_pixel_error.mp4",
+        "poster": "media/world-model/libero_object_pixel_error.jpg"
+      },
+      "patch_error": {
+        "video": "media/world-model/libero_object_patch_error.mp4",
+        "poster": "media/world-model/libero_object_patch_error.jpg"
+      },
+      "error_overlay": {
+        "video": "media/world-model/libero_object_error_overlay.mp4",
+        "poster": "media/world-model/libero_object_error_overlay.jpg"
+      }
+    },
+    "rollout": "media/world-model/libero_object_rollout.mp4",
+    "display_seconds": 8,
+    "error_scale": [
+      0,
+      1
+    ],
+    "error_definition": "mean absolute RGB difference / 255; patch means use 16x16 pixels",
+    "residual_is_predicted": false
+  },
+  {
+    "suite": "libero_goal",
+    "task": "open the middle drawer of the cabinet",
+    "state_index": 0,
+    "horizon_actions": 16,
+    "matched_full_chunks": 8,
+    "terminal_partial_chunks_excluded": true,
+    "preprocessing": "Upstream prepare_images_for_model; JPEG95, resize224, evaluation image transforms",
+    "action_trace_sha256": "13660dabec0fef6c37aad5b83669f01fe732f3e52493bb605b70838afe974ba8",
+    "source_sha256": "60e78cc2dfd87a79528c0d3084ad918d2c12837dcf86eb125f09b6d7c4c6295d",
+    "comparative_frame_gain": false,
+    "media": {
+      "observation": {
+        "video": "media/world-model/libero_goal_observation.mp4",
+        "poster": "media/world-model/libero_goal_observation.jpg"
+      },
+      "prediction": {
+        "video": "media/world-model/libero_goal_prediction.mp4",
+        "poster": "media/world-model/libero_goal_prediction.jpg"
+      },
+      "realized": {
+        "video": "media/world-model/libero_goal_realized.mp4",
+        "poster": "media/world-model/libero_goal_realized.jpg"
+      },
+      "pixel_error": {
+        "video": "media/world-model/libero_goal_pixel_error.mp4",
+        "poster": "media/world-model/libero_goal_pixel_error.jpg"
+      },
+      "patch_error": {
+        "video": "media/world-model/libero_goal_patch_error.mp4",
+        "poster": "media/world-model/libero_goal_patch_error.jpg"
+      },
+      "error_overlay": {
+        "video": "media/world-model/libero_goal_error_overlay.mp4",
+        "poster": "media/world-model/libero_goal_error_overlay.jpg"
+      }
+    },
+    "rollout": "media/world-model/libero_goal_rollout.mp4",
+    "display_seconds": 8,
+    "error_scale": [
+      0,
+      1
+    ],
+    "error_definition": "mean absolute RGB difference / 255; patch means use 16x16 pixels",
+    "residual_is_predicted": false
+  }
+]

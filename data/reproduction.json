@@ -1,0 +1,23 @@
+{
+  "max_abs_per_video_discrepancy": 1.6150525361524615e-11,
+  "n_train": 60,
+  "n_test": 30,
+  "source_raw": "artifacts/raw/relayout_reproduced.json",
+  "values": [
+    {
+      "arm": "natural",
+      "ratio_of_means": 0.05200744469535797,
+      "mean_of_ratios": 0.05275670685472978
+    },
+    {
+      "arm": "permuted",
+      "ratio_of_means": 1.072990872099978,
+      "mean_of_ratios": 1.1208015543428302
+    },
+    {
+      "arm": "permuted+inverse",
+      "ratio_of_means": 0.05200744469535797,
+      "mean_of_ratios": 0.05275670685472978
+    }
+  ]
+}

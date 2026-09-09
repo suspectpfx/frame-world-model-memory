@@ -1,0 +1,16 @@
+arm,metric,mean,ci_low,ci_high,n_videos,scope
+natural,latent_drift,0.022144808141492653,0.02063752639140834,0.02371414309101821,30,fixed natural-trained reader; single donor/shuffle assignment; exploratory
+natural,planner_error,0.4943912551014299,0.3701046851625186,0.6196316407740892,30,fixed natural-trained reader; single donor/shuffle assignment; exploratory
+natural,verifier_error,0.833232484893183,0.7645661049028352,0.894857230531582,30,fixed natural-trained reader; single donor/shuffle assignment; exploratory
+hidden,latent_drift,0.4398637203962318,0.3994709730617172,0.47966257522731603,30,fixed natural-trained reader; single donor/shuffle assignment; exploratory
+hidden,planner_error,0.5211879665542521,0.3895971010291306,0.651923206757203,30,fixed natural-trained reader; single donor/shuffle assignment; exploratory
+hidden,verifier_error,1.0,1.0,1.0,30,fixed natural-trained reader; single donor/shuffle assignment; exploratory
+inverse,latent_drift,0.022144808141492653,0.020635239108596718,0.02370777246995941,30,fixed natural-trained reader; single donor/shuffle assignment; exploratory
+inverse,planner_error,0.4943912551014299,0.3676525449507883,0.6185914441286293,30,fixed natural-trained reader; single donor/shuffle assignment; exploratory
+inverse,verifier_error,0.833232484893183,0.7635434142137202,0.8960348380430799,30,fixed natural-trained reader; single donor/shuffle assignment; exploratory
+time_shuffled_within_sequence,latent_drift,0.09839337456343031,0.07348959313728569,0.12799948992974486,30,fixed natural-trained reader; single donor/shuffle assignment; exploratory
+time_shuffled_within_sequence,planner_error,0.5212327104188871,0.4015543041358264,0.6400277333444179,30,fixed natural-trained reader; single donor/shuffle assignment; exploratory
+time_shuffled_within_sequence,verifier_error,0.8695732933070129,0.8151234116636659,0.9189466261307553,30,fixed natural-trained reader; single donor/shuffle assignment; exploratory
+cross_sequence_train_donor,latent_drift,0.7154550833156536,0.6704929763873286,0.755718072955607,30,fixed natural-trained reader; single donor/shuffle assignment; exploratory
+cross_sequence_train_donor,planner_error,0.5733541983607555,0.47908082884200975,0.6658483656131218,30,fixed natural-trained reader; single donor/shuffle assignment; exploratory
+cross_sequence_train_donor,verifier_error,0.8373177509169593,0.7498159994659253,0.9157787283130306,30,fixed natural-trained reader; single donor/shuffle assignment; exploratory

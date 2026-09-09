@@ -1,0 +1,17 @@
+{
+  "script": "scripts/render_world_model_matrix.py",
+  "sha256": "05e038eb6e493c0e6f6bbf96d7c0398f6ccf96e3f1a3f3f294c5e20c7110b83f",
+  "source": "artifacts/raw/cosmos/closed_loop_probe_4494",
+  "views": [
+    "observation",
+    "prediction",
+    "realized",
+    "pixel_error",
+    "patch_error",
+    "error_overlay"
+  ],
+  "predicted_confidence": false,
+  "frame_comparison": false,
+  "preselected_episodes": 3,
+  "matched_decisions": 20
+}

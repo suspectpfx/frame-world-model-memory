@@ -1,0 +1,144 @@
+{
+  "fig4_layout.svg": {
+    "source_table": "layout.csv",
+    "script": "scripts/plot_results.py"
+  },
+  "fig3_granularity.svg": {
+    "source_table": "granularity.csv",
+    "script": "scripts/plot_results.py"
+  },
+  "supp_margin.svg": {
+    "source_table": "margin.csv; audit_summary.json",
+    "script": "scripts/plot_results.py"
+  },
+  "fig8_throughput.svg": {
+    "source_table": "throughput.csv",
+    "script": "scripts/plot_results.py"
+  },
+  "fig5_cpu_smoke.svg": {
+    "source_table": "layout_cost_difference.csv",
+    "script": "scripts/plot_results.py"
+  },
+  "fig2_consumer.svg": {
+    "source_table": "consumer_regime.csv",
+    "script": "scripts/plot_results.py"
+  },
+  "fig1_overview.svg": {
+    "source_table": "configs/pilot.json; THEORY_REVISED.md; EXPERIMENT_PLAN.md",
+    "script": "scripts/plot_overview.py",
+    "presentation": "portable SVG font normalized by scripts/finalize_figures.py"
+  },
+  "fig4_fixed_reader.svg": {
+    "source_table": "fixed_reader.csv",
+    "script": "scripts/analyze_server.py",
+    "presentation": "portable SVG font normalized by scripts/finalize_figures.py"
+  },
+  "fig5_server.svg": {
+    "source_table": "layout_server_contrasts.csv",
+    "script": "scripts/analyze_server.py",
+    "presentation": "portable SVG font normalized by scripts/finalize_figures.py"
+  },
+  "fig5_fused.svg": {
+    "source_table": "layout_server_contrasts.csv",
+    "script": "scripts/analyze_server.py",
+    "presentation": "portable SVG font normalized by scripts/finalize_figures.py"
+  },
+  "fig_energy.svg": {
+    "source_table": "energy_separate.csv",
+    "script": "scripts/analyze_energy.py",
+    "presentation": "portable SVG font normalized by scripts/finalize_figures.py"
+  },
+  "fig_pipeline_verified.svg": {
+    "source_table": "THEORY_REVISED.md; PIPELINE_AUDIT.md",
+    "script": "scripts/plot_pipeline_verified.py",
+    "presentation": "portable SVG font normalized by scripts/finalize_figures.py"
+  },
+  "fig_method_contract.svg": {
+    "source_table": "THEORY_REVISED.md",
+    "script": "scripts/plot_method_contract.py",
+    "presentation": "portable SVG font normalized by scripts/finalize_figures.py"
+  },
+  "fig_world_model_probe.svg": {
+    "source_table": "world_model_probe.csv; artifacts/raw/cosmos/closed_loop_probe_4494/manifest.json",
+    "script": "scripts/plot_world_model_probe.py"
+  },
+  "fig_memory_sanity.svg": {
+    "source_table": "memory_sanity_episodes.csv",
+    "script": "scripts/plot_memory_sanity.py"
+  },
+  "fig_fresh_baseline.svg": {
+    "source_table": "fresh_baseline_episodes.csv; artifacts/statistics/fresh_baseline.json",
+    "script": "scripts/plot_fresh_baseline.py",
+    "background": "dark"
+  },
+  "fig4_fixed_reader_dark.svg": {
+    "source_figure": "fig4_fixed_reader.svg",
+    "script": "scripts/make_dark_figures.py",
+    "transformation": "presentation colors only; geometry, data and labels unchanged"
+  },
+  "fig5_fused_dark.svg": {
+    "source_figure": "fig5_fused.svg",
+    "script": "scripts/make_dark_figures.py",
+    "transformation": "presentation colors only; geometry, data and labels unchanged"
+  },
+  "fig5_server_dark.svg": {
+    "source_figure": "fig5_server.svg",
+    "script": "scripts/make_dark_figures.py",
+    "transformation": "presentation colors only; geometry, data and labels unchanged"
+  },
+  "fig_energy_dark.svg": {
+    "source_figure": "fig_energy.svg",
+    "script": "scripts/make_dark_figures.py",
+    "transformation": "presentation colors only; geometry, data and labels unchanged"
+  },
+  "fig_world_model_probe_dark.svg": {
+    "source_figure": "fig_world_model_probe.svg",
+    "script": "scripts/make_dark_figures.py",
+    "transformation": "presentation colors only; geometry, data and labels unchanged"
+  },
+  "fig_memory_sanity_dark.svg": {
+    "source_figure": "fig_memory_sanity.svg",
+    "script": "scripts/make_dark_figures.py",
+    "transformation": "presentation colors only; geometry, data and labels unchanged"
+  },
+  "fig_fresh_baseline_dark.svg": {
+    "source_figure": "fig_fresh_baseline.svg",
+    "script": "scripts/make_dark_figures.py",
+    "transformation": "presentation colors only; geometry, data and labels unchanged"
+  },
+  "fig3_granularity_dark.svg": {
+    "source_figure": "fig3_granularity.svg",
+    "script": "scripts/make_dark_figures.py",
+    "transformation": "presentation colors only; geometry, data and labels unchanged"
+  },
+  "fig4_layout_dark.svg": {
+    "source_figure": "fig4_layout.svg",
+    "script": "scripts/make_dark_figures.py",
+    "transformation": "presentation colors only; geometry, data and labels unchanged"
+  },
+  "fig2_consumer_dark.svg": {
+    "source_figure": "fig2_consumer.svg",
+    "script": "scripts/make_dark_figures.py",
+    "transformation": "presentation colors only; geometry, data and labels unchanged"
+  },
+  "fig8_throughput_dark.svg": {
+    "source_figure": "fig8_throughput.svg",
+    "script": "scripts/make_dark_figures.py",
+    "transformation": "presentation colors only; geometry, data and labels unchanged"
+  },
+  "supp_margin_dark.svg": {
+    "source_figure": "supp_margin.svg",
+    "script": "scripts/make_dark_figures.py",
+    "transformation": "presentation colors only; geometry, data and labels unchanged"
+  },
+  "fig5_cpu_smoke_dark.svg": {
+    "source_figure": "fig5_cpu_smoke.svg",
+    "script": "scripts/make_dark_figures.py",
+    "transformation": "presentation colors only; geometry, data and labels unchanged"
+  },
+  "fig_memory_population.svg": {
+    "source_table": "memory_population_episodes.csv; memory_population.json",
+    "script": "scripts/plot_memory_population.py",
+    "scope": "exploratory controls within three fixed tasks; no calibrated FRAME selector"
+  }
+}

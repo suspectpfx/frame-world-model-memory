@@ -1,0 +1,118 @@
+{
+  "counts": [
+    {
+      "device": "cpu",
+      "comparison": "E minus C",
+      "n": 64,
+      "pointwise_winners": {
+        "E": 63,
+        "unresolved": 1
+      }
+    },
+    {
+      "device": "cpu",
+      "comparison": "D minus C",
+      "n": 64,
+      "pointwise_winners": {
+        "C": 64
+      }
+    },
+    {
+      "device": "cpu",
+      "comparison": "G minus F",
+      "n": 64,
+      "pointwise_winners": {
+        "F": 22,
+        "unresolved": 16,
+        "G": 26
+      }
+    },
+    {
+      "device": "cpu",
+      "comparison": "F minus D",
+      "n": 64,
+      "pointwise_winners": {
+        "F": 64
+      }
+    },
+    {
+      "device": "cuda",
+      "comparison": "E minus C",
+      "n": 64,
+      "pointwise_winners": {
+        "E": 64
+      }
+    },
+    {
+      "device": "cuda",
+      "comparison": "D minus C",
+      "n": 64,
+      "pointwise_winners": {
+        "D": 63,
+        "unresolved": 1
+      }
+    },
+    {
+      "device": "cuda",
+      "comparison": "G minus F",
+      "n": 64,
+      "pointwise_winners": {
+        "unresolved": 24,
+        "F": 39,
+        "G": 1
+      }
+    },
+    {
+      "device": "cuda",
+      "comparison": "F minus D",
+      "n": 64,
+      "pointwise_winners": {
+        "unresolved": 41,
+        "F": 23
+      }
+    }
+  ],
+  "n_contrasts": 760,
+  "holm_rejections_05": 0,
+  "replication": {
+    "max_abs_per_video_discrepancy": 1.6150525361524615e-11,
+    "n_train": 60,
+    "n_test": 30,
+    "source_raw": "artifacts/raw/relayout_reproduced.json",
+    "values": [
+      {
+        "arm": "natural",
+        "ratio_of_means": 0.05200744469535797,
+        "mean_of_ratios": 0.05275670685472978
+      },
+      {
+        "arm": "permuted",
+        "ratio_of_means": 1.072990872099978,
+        "mean_of_ratios": 1.1208015543428302
+      },
+      {
+        "arm": "permuted+inverse",
+        "ratio_of_means": 0.05200744469535797,
+        "mean_of_ratios": 0.05275670685472978
+      }
+    ]
+  },
+  "summary": [
+    {
+      "device": "cpu",
+      "cases": 76,
+      "blocks": 5852,
+      "correct_checks": 456,
+      "gpu": null,
+      "elapsed_s": 926.0281732082367
+    },
+    {
+      "device": "cuda",
+      "cases": 76,
+      "blocks": 5852,
+      "correct_checks": 456,
+      "gpu": "NVIDIA RTX A6000",
+      "elapsed_s": 313.6357181072235
+    }
+  ]
+}

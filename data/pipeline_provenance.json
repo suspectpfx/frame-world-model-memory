@@ -1,0 +1,7 @@
+{
+  "type": "conceptual_method_diagram",
+  "source": "THEORY_REVISED.md; PIPELINE_AUDIT.md",
+  "script": "scripts/plot_pipeline_verified.py",
+  "sha256": "201e97db7a50681180284cfc88125f44028db8b201cbb6c64997c964009b240b",
+  "experimental_result": false
+}

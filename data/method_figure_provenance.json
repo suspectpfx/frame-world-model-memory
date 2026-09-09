@@ -1,0 +1,8 @@
+{
+  "figure": "figures/fig_method_contract.svg",
+  "type": "conceptual_formulation",
+  "source": "THEORY_REVISED.md",
+  "script": "scripts/plot_method_contract.py",
+  "sha256": "0372e4c1bef71c8e96a0a61dca75ae89a5e27bc01c6b2c5c00b2d8eb762093ed",
+  "empirical_result": false
+}

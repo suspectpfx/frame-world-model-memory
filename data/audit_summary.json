@@ -1,0 +1,228 @@
+{
+  "layout": [
+    {
+      "arm": "natural",
+      "estimand": "ratio_of_means",
+      "estimate": 0.05200744469536301,
+      "ci_low": 0.04825644294950043,
+      "ci_high": 0.05567734336442771,
+      "n": 30,
+      "sample_unit": "video",
+      "source": "relayout.json"
+    },
+    {
+      "arm": "natural",
+      "estimand": "mean_of_ratios",
+      "estimate": 0.05275670685473591,
+      "ci_low": 0.049162074488345316,
+      "ci_high": 0.056231717073055305,
+      "n": 30,
+      "sample_unit": "video",
+      "source": "relayout.json"
+    },
+    {
+      "arm": "permuted",
+      "estimand": "ratio_of_means",
+      "estimate": 1.0729908720974883,
+      "ci_low": 0.950271857623368,
+      "ci_high": 1.218640760183499,
+      "n": 30,
+      "sample_unit": "video",
+      "source": "relayout.json"
+    },
+    {
+      "arm": "permuted",
+      "estimand": "mean_of_ratios",
+      "estimate": 1.1208015543396634,
+      "ci_low": 0.9855298055924955,
+      "ci_high": 1.270887765164492,
+      "n": 30,
+      "sample_unit": "video",
+      "source": "relayout.json"
+    },
+    {
+      "arm": "permuted+inverse",
+      "estimand": "ratio_of_means",
+      "estimate": 0.05200744469536301,
+      "ci_low": 0.04825644294950043,
+      "ci_high": 0.05567734336442771,
+      "n": 30,
+      "sample_unit": "video",
+      "source": "relayout.json"
+    },
+    {
+      "arm": "permuted+inverse",
+      "estimand": "mean_of_ratios",
+      "estimate": 0.05275670685473591,
+      "ci_low": 0.049162074488345316,
+      "ci_high": 0.056231717073055305,
+      "n": 30,
+      "sample_unit": "video",
+      "source": "relayout.json"
+    }
+  ],
+  "tests": [
+    {
+      "test": "hidden_minus_natural",
+      "effect_size": 1.0209834274021252,
+      "ci_low": 0.8992728870529907,
+      "ci_high": 1.1650633508540817,
+      "raw_p": 1e-05,
+      "n": 30,
+      "unit": "video",
+      "status": "PROVISIONAL",
+      "corrected_p": 4e-05
+    },
+    {
+      "test": "below_minus_reader_ro3",
+      "effect_size": 0.13423498040332488,
+      "ci_low": 0.1200348032989708,
+      "ci_high": 0.14872795585705187,
+      "raw_p": 1e-05,
+      "n": 30,
+      "unit": "video",
+      "status": "PROVISIONAL",
+      "corrected_p": 4e-05
+    },
+    {
+      "test": "below_minus_reader_ro4",
+      "effect_size": 0.10501986858158809,
+      "ci_low": 0.09465574516008166,
+      "ci_high": 0.11592923102515164,
+      "raw_p": 1e-05,
+      "n": 30,
+      "unit": "video",
+      "status": "PROVISIONAL",
+      "corrected_p": 4e-05
+    },
+    {
+      "test": "below_minus_reader_ro6",
+      "effect_size": 0.10439608224173688,
+      "ci_low": 0.09580076280793544,
+      "ci_high": 0.11367266422587506,
+      "raw_p": 1e-05,
+      "n": 30,
+      "unit": "video",
+      "status": "PROVISIONAL",
+      "corrected_p": 4e-05
+    }
+  ],
+  "margin": {
+    "low_mean": 0.010909960251302014,
+    "high_mean": 0.000742592927505413,
+    "difference": 0.0101673673237966,
+    "low_ci": [
+      0.009802065158362483,
+      0.012113236994174196
+    ],
+    "high_ci": [
+      0.00041901724088207193,
+      0.0010782080946281373
+    ],
+    "difference_ci": [
+      0.009300271614858904,
+      0.011085123287940622
+    ],
+    "cell_permutation_p_one_sided": 0.020053475935828877,
+    "cell_permutation_p_two_sided": 0.042112299465240643,
+    "historical_p": "0.019 is hard-coded; original test, seed and tail missing",
+    "interpretation": "cell permutation violates independence across shared videos; descriptive reconstruction only. Video-bootstrap CIs conditional on post-hoc threshold and these grids, not an equivalence test."
+  },
+  "recovery_max_abs_stored_video_loss": 0.0,
+  "recovery_scope": "stored per-video scores, not regenerated latent tensors",
+  "energy_status": "historical estimates; no reliable per-operation energy measurement",
+  "layout_cost": [
+    {
+      "name": "6x6 x 16   (~600 B tier)",
+      "cells": 36,
+      "ch": 16,
+      "bytes": 2304,
+      "meta_bytes": 18,
+      "gather_us": 9.962742527325949,
+      "gather_mJ": 0.0018032563974459705,
+      "exact": true
+    },
+    {
+      "name": "12x12 x 8  (~4.6 KB tier)",
+      "cells": 144,
+      "ch": 8,
+      "bytes": 4608,
+      "meta_bytes": 104,
+      "gather_us": 10.019789139429728,
+      "gather_mJ": 0.0018135818342367544,
+      "exact": true
+    },
+    {
+      "name": "12x12 x 64 (~37 KB tier)",
+      "cells": 144,
+      "ch": 64,
+      "bytes": 36864,
+      "meta_bytes": 104,
+      "gather_us": 9.65062528848648,
+      "gather_mJ": 0.0017467631772160278,
+      "exact": true
+    },
+    {
+      "name": "12x12 x 384 (full visual)",
+      "cells": 144,
+      "ch": 384,
+      "bytes": 221184,
+      "meta_bytes": 104,
+      "gather_us": 9.668432176113129,
+      "gather_mJ": 0.0017499862238764508,
+      "exact": true
+    }
+  ],
+  "versions": [
+    {
+      "source": "frame_ref3.json",
+      "arm": "scene",
+      "estimate": 0.05231080675432497,
+      "estimand": "legacy aggregate loss / legacy aggregate prior loss",
+      "provenance": "no exact run commit/hash seed recorded"
+    },
+    {
+      "source": "frame_ref3.json",
+      "arm": "scene-perm",
+      "estimate": 1.0820796491474654,
+      "estimand": "legacy aggregate loss / legacy aggregate prior loss",
+      "provenance": "no exact run commit/hash seed recorded"
+    },
+    {
+      "source": "frame_ref3.json",
+      "arm": "object",
+      "estimate": 0.7286122758681687,
+      "estimand": "legacy aggregate loss / legacy aggregate prior loss",
+      "provenance": "no exact run commit/hash seed recorded"
+    },
+    {
+      "source": "frame_ref3_dinov2.json",
+      "arm": "scene",
+      "estimate": 0.0523108081577803,
+      "estimand": "legacy aggregate loss / legacy aggregate prior loss",
+      "provenance": "no exact run commit/hash seed recorded"
+    },
+    {
+      "source": "frame_ref3_dinov2.json",
+      "arm": "scene-perm",
+      "estimate": 1.065561215913595,
+      "estimand": "legacy aggregate loss / legacy aggregate prior loss",
+      "provenance": "no exact run commit/hash seed recorded"
+    },
+    {
+      "source": "frame_ref3_dinov2.json",
+      "arm": "object",
+      "estimate": 0.7286122598232451,
+      "estimand": "legacy aggregate loss / legacy aggregate prior loss",
+      "provenance": "no exact run commit/hash seed recorded"
+    }
+  ],
+  "source_hashes": {
+    "relayout.json": "36b3693ef4d66dc7f2aa8693c29ab8590dc4f2f1c20bd2714f95a36ab605e96b",
+    "reindex_cost.json": "d01389c2bef26cb391170e1f04d638c826af2db66ee3a1cf79cda852862a5837",
+    "mp_store2.json": "3fd8c1111bc027d191a52fd8f2e7d6d0880b0ec662f2a4bbcc5b9da938579830",
+    "dense_ro3.json": "b8f677757096c9d264b4949570334c86bca8c823978fad00c78f57fc1159b6f6",
+    "dense_ro4.json": "8460c2b5bdd45b2d7dc2ed5dcbfa2c99157b22f086b186a7c657be02df1898c7",
+    "dense_ro6.json": "3577273c64589cc033845e3347d374254fb35e0ff89a231b18dd604f18b8b3e2"
+  }
+}

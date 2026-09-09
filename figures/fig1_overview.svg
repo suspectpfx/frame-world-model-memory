@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1230.4pt" height="726.4pt" viewBox="0 0 1230.4 726.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-07T02:37:18.745841</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 726.4 
+L 1230.4 726.4 
+L 1230.4 -0 
+L 0 -0 
+z
+" style="fill: #f6f8fb"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 40.103529 275.624 
+L 296.178824 275.624 
+Q 305.477647 275.624 305.477647 266.368 
+L 305.477647 132.512 
+Q 305.477647 123.256 296.178824 123.256 
+L 40.103529 123.256 
+Q 30.804706 123.256 30.804706 132.512 
+L 30.804706 266.368 
+Q 30.804706 275.624 40.103529 275.624 
+z
+" clip-path="url(#p875459ae87)" style="fill: #ffffff; stroke: #d5dee8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 340.527059 275.624 
+L 596.602353 275.624 
+Q 605.901176 275.624 605.901176 266.368 
+L 605.901176 132.512 
+Q 605.901176 123.256 596.602353 123.256 
+L 340.527059 123.256 
+Q 331.228235 123.256 331.228235 132.512 
+L 331.228235 266.368 
+Q 331.228235 275.624 340.527059 275.624 
+z
+" clip-path="url(#p875459ae87)" style="fill: #ffffff; stroke: #d5dee8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 640.950588 275.624 
+L 897.025882 275.624 
+Q 906.324706 275.624 906.324706 266.368 
+L 906.324706 132.512 
+Q 906.324706 123.256 897.025882 123.256 
+L 640.950588 123.256 
+Q 631.651765 123.256 631.651765 132.512 
+L 631.651765 266.368 
+Q 631.651765 275.624 640.950588 275.624 
+z
+" clip-path="url(#p875459ae87)" style="fill: #ffffff; stroke: #d5dee8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 941.374118 275.624 
+L 1190.296471 275.624 
+Q 1199.595294 275.624 1199.595294 266.368 
+L 1199.595294 132.512 
+Q 1199.595294 123.256 1190.296471 123.256 
+L 941.374118 123.256 
+Q 932.075294 123.256 932.075294 132.512 
+L 932.075294 266.368 
+Q 932.075294 275.624 941.374118 275.624 
+z
+" clip-path="url(#p875459ae87)" style="fill: #ffffff; stroke: #d5dee8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 309.622197 199.44 
+Q 318.352186 199.44 325.516928 199.44 
+" clip-path="url(#p875459ae87)" style="fill: none; stroke: #64768d; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 320.316928 196.84 
+L 325.516928 199.44 
+L 320.316928 202.04 
+z
+" clip-path="url(#p875459ae87)" style="fill: #64768d; stroke: #64768d; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 610.045726 199.44 
+Q 618.775716 199.44 625.940458 199.44 
+" clip-path="url(#p875459ae87)" style="fill: none; stroke: #64768d; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 620.740458 196.84 
+L 625.940458 199.44 
+L 620.740458 202.04 
+z
+" clip-path="url(#p875459ae87)" style="fill: #64768d; stroke: #64768d; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 910.469256 199.44 
+Q 919.199245 199.44 926.363987 199.44 
+" clip-path="url(#p875459ae87)" style="fill: none; stroke: #64768d; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 921.163987 196.84 
+L 926.363987 199.44 
+L 921.163987 202.04 
+z
+" clip-path="url(#p875459ae87)" style="fill: #64768d; stroke: #64768d; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 1065.835294 279.759023 
+Q 1065.835294 291.99904 1065.835294 302.673809 
+" clip-path="url(#p875459ae87)" style="fill: none; stroke: #64768d; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 1068.435294 297.473809 
+L 1065.835294 302.673809 
+L 1063.235294 297.473809 
+z
+" clip-path="url(#p875459ae87)" style="fill: #64768d; stroke: #64768d; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 1063.833161 306.24 
+Q 618.774229 306.24 175.280544 306.24 
+" clip-path="url(#p875459ae87)" style="fill: none; stroke: #64768d; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 180.480544 308.84 
+L 175.280544 306.24 
+L 180.480544 303.64 
+z
+" clip-path="url(#p875459ae87)" style="fill: #64768d; stroke: #64768d; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 171.717647 304.240977 
+Q 171.717647 292.00096 171.717647 281.326191 
+" clip-path="url(#p875459ae87)" style="fill: none; stroke: #64768d; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 169.117647 286.526191 
+L 171.717647 281.326191 
+L 174.317647 286.526191 
+z
+" clip-path="url(#p875459ae87)" style="fill: #64768d; stroke: #64768d; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 40.103529 524.824 
+L 303.331765 524.824 
+Q 312.630588 524.824 312.630588 515.568 
+L 312.630588 360.352 
+Q 312.630588 351.096 303.331765 351.096 
+L 40.103529 351.096 
+Q 30.804706 351.096 30.804706 360.352 
+L 30.804706 515.568 
+Q 30.804706 524.824 40.103529 524.824 
+z
+" clip-path="url(#p875459ae87)" style="fill: #ffffff; stroke: #d5dee8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 340.527059 524.824 
+L 603.755294 524.824 
+Q 613.054118 524.824 613.054118 515.568 
+L 613.054118 360.352 
+Q 613.054118 351.096 603.755294 351.096 
+L 340.527059 351.096 
+Q 331.228235 351.096 331.228235 360.352 
+L 331.228235 515.568 
+Q 331.228235 524.824 340.527059 524.824 
+z
+" clip-path="url(#p875459ae87)" style="fill: #ffffff; stroke: #d5dee8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 640.950588 524.824 
+L 904.178824 524.824 
+Q 913.477647 524.824 913.477647 515.568 
+L 913.477647 360.352 
+Q 913.477647 351.096 904.178824 351.096 
+L 640.950588 351.096 
+Q 631.651765 351.096 631.651765 360.352 
+L 631.651765 515.568 
+Q 631.651765 524.824 640.950588 524.824 
+z
+" clip-path="url(#p875459ae87)" style="fill: #ffffff; stroke: #d5dee8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 941.374118 524.824 
+L 1190.296471 524.824 
+Q 1199.595294 524.824 1199.595294 515.568 
+L 1199.595294 360.352 
+Q 1199.595294 351.096 1190.296471 351.096 
+L 941.374118 351.096 
+Q 932.075294 351.096 932.075294 360.352 
+L 932.075294 515.568 
+Q 932.075294 524.824 941.374118 524.824 
+z
+" clip-path="url(#p875459ae87)" style="fill: #ffffff; stroke: #d5dee8; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 42.964706 256.4 
+L 42.964706 142.48 
+" clip-path="url(#p875459ae87)" style="fill: none; stroke: #257ba4; stroke-width: 3; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 343.388235 256.4 
+L 343.388235 142.48 
+" clip-path="url(#p875459ae87)" style="fill: none; stroke: #257ba4; stroke-width: 3; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 643.811765 256.4 
+L 643.811765 142.48 
+" clip-path="url(#p875459ae87)" style="fill: none; stroke: #257ba4; stroke-width: 3; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 944.235294 256.4 
+L 944.235294 142.48 
+" clip-path="url(#p875459ae87)" style="fill: none; stroke: #257ba4; stroke-width: 3; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 42.964706 505.6 
+L 42.964706 370.32 
+" clip-path="url(#p875459ae87)" style="fill: none; stroke: #257ba4; stroke-width: 3; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_6">
+    <path d="M 343.388235 505.6 
+L 343.388235 370.32 
+" clip-path="url(#p875459ae87)" style="fill: none; stroke: #7453a6; stroke-width: 3; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_7">
+    <path d="M 643.811765 505.6 
+L 643.811765 370.32 
+" clip-path="url(#p875459ae87)" style="fill: none; stroke: #248572; stroke-width: 3; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_8">
+    <path d="M 944.235294 505.6 
+L 944.235294 370.32 
+" clip-path="url(#p875459ae87)" style="fill: none; stroke: #b67524; stroke-width: 3; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 27px; font-family: Arial, Helvetica, sans-serif; text-anchor: start; fill: #182336" x="35.811765" y="41.953672" transform="rotate(-0 35.811765 41.953672)">FRAME</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 16px; font-family: Arial, Helvetica, sans-serif; text-anchor: start; fill: #182336" x="236.094118" y="40.7175" transform="rotate(-0 236.094118 40.7175)">Consumer-conditioned memory for world models / Physical AI</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 11px; font-family: Arial, Helvetica, sans-serif; text-anchor: start; fill: #526378" x="35.811765" y="86.758281" transform="rotate(-0 35.811765 86.758281)">RESEARCH OVERVIEW   •   Mechanism → falsifiable hypotheses → executed actions → traceable evidence</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 11px; font-family: Arial, Helvetica, sans-serif; text-anchor: start; fill: #257ba4" x="57.270588" y="150.837422" transform="rotate(-0 57.270588 150.837422)">1  Consumer contract</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 9px; font-family: Arial, Helvetica, sans-serif; fill: #182336" transform="translate(57.270588 187.763437)">Task loss &amp; fidelity tolerance</text>
+    <text style="font-size: 9px; font-family: Arial, Helvetica, sans-serif; fill: #182336" transform="translate(57.270588 202.163437)">Spatial contract &amp; preferred layout</text>
+    <text style="font-size: 9px; font-family: Arial, Helvetica, sans-serif; fill: #182336" transform="translate(57.270588 217.435312)">Sensor contract &amp; action deadline</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 11px; font-family: Arial, Helvetica, sans-serif; text-anchor: start; fill: #257ba4" x="357.694118" y="150.838281" transform="rotate(-0 357.694118 150.838281)">2  Memory record</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 9px; font-family: Arial, Helvetica, sans-serif; fill: #182336" transform="translate(357.694118 187.758516)">r = (z, e, g, ℓ, m, Δ)</text>
+    <text style="font-size: 9px; font-family: Arial, Helvetica, sans-serif; fill: #182336" transform="translate(357.694118 202.163437)">Payload · fidelity · granularity</text>
+    <text style="font-size: 9px; font-family: Arial, Helvetica, sans-serif; fill: #182336" transform="translate(357.694118 216.563437)">Layout · metadata · field timestamps</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 11px; font-family: Arial, Helvetica, sans-serif; text-anchor: start; fill: #257ba4" x="658.117647" y="150.838281" transform="rotate(-0 658.117647 150.838281)">3  Access &amp; temporal choice</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 9px; font-family: Arial, Helvetica, sans-serif; fill: #182336" transform="translate(658.117647 187.763437)">Adapter: direct / inverse / indirect</text>
+    <text style="font-size: 9px; font-family: Arial, Helvetica, sans-serif; fill: #182336" transform="translate(658.117647 202.163437)">Channel: return / imagine / observe</text>
+    <text style="font-size: 9px; font-family: Arial, Helvetica, sans-serif; fill: #182336" transform="translate(658.117647 216.563437)">Charge writes, adapters and sensors</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 11px; font-family: Arial, Helvetica, sans-serif; text-anchor: start; fill: #257ba4" x="958.541176" y="150.838281" transform="rotate(-0 958.541176 150.838281)">4  Learned world-action model</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 9px; font-family: Arial, Helvetica, sans-serif; fill: #182336" transform="translate(958.541176 187.763437)">Condition on actual action history</text>
+    <text style="font-size: 9px; font-family: Arial, Helvetica, sans-serif; fill: #182336" transform="translate(958.541176 202.163437)">Predict future / propose actions</text>
+    <text style="font-size: 9px; font-family: Arial, Helvetica, sans-serif; fill: #182336" transform="translate(958.541176 217.435312)">Execute → advance simulator</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 9px; font-family: Arial, Helvetica, sans-serif; text-anchor: start; fill: #526378" x="450.682353" y="291.718594" transform="rotate(-0 450.682353 291.718594)">New observation admitted only by declared sensing rule</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 11px; font-family: Arial, Helvetica, sans-serif; text-anchor: start; fill: #257ba4" x="57.270588" y="378.678281" transform="rotate(-0 57.270588 378.678281)">H1  Consumer utility</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 9px; font-family: Arial, Helvetica, sans-serif; fill: #182336" transform="translate(57.270588 415.603437)">Vary fidelity, spatial grid &amp; age</text>
+    <text style="font-size: 9px; font-family: Arial, Helvetica, sans-serif; fill: #182336" transform="translate(57.270588 430.003437)">Train/calibrate on disjoint sequences</text>
+    <text style="font-size: 9px; font-family: Arial, Helvetica, sans-serif; fill: #182336" transform="translate(57.270588 444.403437)">Paired tasks; two prior baselines</text>
+    <text style="font-size: 9px; font-family: Arial, Helvetica, sans-serif; fill: #182336" transform="translate(57.270588 458.803437)">Endpoint: feasible task-loss region</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 11px; font-family: Arial, Helvetica, sans-serif; text-anchor: start; fill: #7453a6" x="357.694118" y="378.678281" transform="rotate(-0 357.694118 378.678281)">H2  Addressability</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 9px; font-family: Arial, Helvetica, sans-serif; fill: #182336" transform="translate(357.694118 416.121641)">Natural / hidden / inverse recovered</text>
+    <text style="font-size: 9px; font-family: Arial, Helvetica, sans-serif; fill: #182336" transform="translate(357.694118 430.875312)">Strict inverse correctness first</text>
+    <text style="font-size: 9px; font-family: Arial, Helvetica, sans-serif; fill: #182336" transform="translate(357.694118 444.403437)">Hold consumer weights fixed</text>
+    <text style="font-size: 9px; font-family: Arial, Helvetica, sans-serif; fill: #182336" transform="translate(357.694118 458.803437)">Separate lossy pooling ablation</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 11px; font-family: Arial, Helvetica, sans-serif; text-anchor: start; fill: #248572" x="658.117647" y="378.678281" transform="rotate(-0 658.117647 378.678281)">H3  Layout serving</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 9px; font-family: Arial, Helvetica, sans-serif; fill: #182336" transform="translate(658.117647 416.016172)">A–G arms; CPU and GPU</text>
+    <text style="font-size: 9px; font-family: Arial, Helvetica, sans-serif; fill: #182336" transform="translate(658.117647 430.003437)">Reuse × payload × readers × cache</text>
+    <text style="font-size: 9px; font-family: Arial, Helvetica, sans-serif; fill: #182336" transform="translate(658.117647 444.403437)">Median, tails, bytes, measured energy</text>
+    <text style="font-size: 9px; font-family: Arial, Helvetica, sans-serif; fill: #182336" transform="translate(658.117647 458.803437)">Allow no crossing / negligible cost</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 11px; font-family: Arial, Helvetica, sans-serif; text-anchor: start; fill: #b67524" x="958.541176" y="378.678281" transform="rotate(-0 958.541176 378.678281)">H4  Closed-loop benefit</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 9px; font-family: Arial, Helvetica, sans-serif; fill: #182336" transform="translate(958.541176 415.603437)">Fresh baseline → paired pilot</text>
+    <text style="font-size: 9px; font-family: Arial, Helvetica, sans-serif; fill: #182336" transform="translate(958.541176 430.003437)">Synchronous + latency-aware</text>
+    <text style="font-size: 9px; font-family: Arial, Helvetica, sans-serif; fill: #182336" transform="translate(958.541176 444.403437)">LIBERO → RoboTwin replication</text>
+    <text style="font-size: 9px; font-family: Arial, Helvetica, sans-serif; fill: #182336" transform="translate(958.541176 458.803437)">Success–latency–energy frontier</text>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 10px; font-family: Arial, Helvetica, sans-serif; text-anchor: start; fill: #526378" x="35.811765" y="563.037656" transform="rotate(-0 35.811765 563.037656)">EXECUTION GATES</text>
+   </g>
+   <g id="text_22">
+    <text style="font-weight: 700; font-size: 10px; font-family: Arial, Helvetica, sans-serif; text-anchor: start; fill: #182336" x="35.811765" y="591.518438" transform="rotate(-0 35.811765 591.518438)">0  Audit  →  1  Layout  →  2  Theory  →  3  Model &amp; pilot  →  4  LIBERO  →  5  RoboTwin  →  6  Systems  →  7  Paper</text>
+   </g>
+   <g id="text_23">
+    <text style="font-weight: 700; font-size: 10px; font-family: Arial, Helvetica, sans-serif; text-anchor: start; fill: #526378" x="35.811765" y="634.237656" transform="rotate(-0 35.811765 634.237656)">EVIDENCE CHAIN</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 10px; font-family: Arial, Helvetica, sans-serif; text-anchor: start; fill: #182336" x="35.811765" y="662.718437" transform="rotate(-0 35.811765 662.718437)">Pinned config + source hash  →  per-episode / per-run raw trace  →  paired statistical report  →  generated tables, plots &amp; real rollout videos</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 8px; font-family: Arial, Helvetica, sans-serif; text-anchor: start; fill: #68788b" x="35.811765" y="703.91875" transform="rotate(-0 35.811765 703.91875)">Design schematic. H1–H4 are hypotheses; arrows specify required causal paths. Completion is governed by recorded stop/go checks.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p875459ae87">
+   <rect x="7.2" y="7.2" width="1216" height="712"/>
+  </clipPath>
+ </defs>
+</svg>

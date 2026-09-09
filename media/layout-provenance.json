@@ -1,0 +1,10 @@
+{
+  "sequence": "blackswan",
+  "n_frames": 50,
+  "source": "DINOv2 cache grid; training-only PCA basis; fixed random three-channel display projection",
+  "not_rgb_reconstruction": true,
+  "not_robot_rollout": true,
+  "source_hash": "171ac9b806ebb35f9e7847d09f6947669b7756f9caf38238c1c83eec02ebbc6c",
+  "inverse_max_abs": 0.0,
+  "script_sha256": "706c8fffdbd406aaf4c68a75857c3531da7568c4cec5a64b7e89491e2ba9d4b6"
+}
